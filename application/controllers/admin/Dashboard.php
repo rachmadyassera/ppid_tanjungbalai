@@ -20,10 +20,7 @@ class Dashboard extends CI_Controller{
 		$x['permohonan_bulan_lalu']           = $this->mpi->permohonan_bulan_lalu();
 		$x['permohonan_tahun_ini']            = $this->mpi->permohonan_tahun_ini();
 		$x['permohonan_tahun_lalu']            = $this->mpi->permohonan_tahun_lalu();
-
-		// var_dump($this->mpi->permohonan_informasi_terakhir()->row());
-		// die;
-
+ 
 		$this->load->view('admin/v_dashboard',$x); 
 	
 	}

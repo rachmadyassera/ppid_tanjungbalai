@@ -1,8 +1,6 @@
 <?php
 
-use GuzzleHttp\Client;
-
-
+use GuzzleHttp\Client; 
 class M_PermohonanInformasi extends CI_Model{
 
 	function statistik_permohonan_tahun_berjalan(){

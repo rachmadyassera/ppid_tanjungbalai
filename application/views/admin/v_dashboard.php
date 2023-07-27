@@ -1,9 +1,4 @@
-<!--Counter Inbox-->
-<?php
-    error_reporting(0);
-    $query=$this->db->query("SELECT * FROM tbl_lapor WHERE inbox_status='1'");
-    $jum_pesan=$query->num_rows();
-?>
+<?php error_reporting(0); ?>
 <!DOCTYPE html>
 <html>
 <?php $this->load->view('admin/v_tag_header'); ?>
@@ -14,8 +9,7 @@
             $bulan[] = $result->tgl; //ambil bulan
             $value[] = (float) $result->jumlah; //ambil nilai
         }
-        /* end mengambil query*/
-
+        /* end mengambil query*/ 
   ?>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
