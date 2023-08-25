@@ -191,7 +191,7 @@ img { -ms-interpolation-mode: bicubic; /* Allow smoother rendering of resized im
 </tr>
 <?php if($b['status']==1):?>
     <tr>
-    <td class="text-title2 pb15 m-center" style="color:#000000; font-family:'Noto Serif', Georgia, serif; font-size:20px; line-height:24px; text-align:left; padding-bottom:15px;"><multiline>Permohonan Informasi anda dapat dilihat  <a href="<?php echo base_url().'assets/dokumen-informasi/'.$b['idpi']; ?>" target="_blank">Klik Disini</a></multiline></td>
+    <td class="text-title2 pb15 m-center" style="color:#000000; font-family:'Noto Serif', Georgia, serif; font-size:20px; line-height:24px; text-align:left; padding-bottom:15px;"><multiline>Permohonan Informasi anda dapat dilihat  <a href="<?php echo base_url().'assets/dokumen-informasi/'.$b['dokumen']; ?>" target="_blank">Klik Disini</a></multiline></td>
     </tr>
 <?php else:?>   
 <?php endif;?>
